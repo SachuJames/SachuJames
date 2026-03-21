@@ -5,7 +5,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=50&lines=🔍+Building+ProjectZyra+—+AI+Price+Comparison+Engine;📚+5th+Sem+CSE+%40+APJ+Abdul+Kalam+University;🎯+Targeting+SDE+%40+FinTech+%2F+HFT+by+2027;⚡+FastAPI+%7C+React+%7C+PostgreSQL+%7C+Redis+%7C+Docker" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=50&lines=🔍+Building+ProjectZyra+—+AI+Price+Comparison+Engine;📚+5th+Sem+CSE+%40+APJ+Abdul+Kalam+University;🎯+Targeting+SDE+%40+FinTech+%2F+HFT+by+2027;⚡+FastAPI+%7C+React+%7C+PostgreSQL+%7C+Redis+%7C+Docker" alt="Typing SVG" />
 </div>
 
 <br/>
