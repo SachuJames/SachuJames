@@ -1,169 +1,140 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:6366f1,100:8b5cf6&height=200&section=header&text=Sachu%20James&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%20%E2%80%A2%20FinTech%20Aspirant%20%E2%80%A2%20Problem%20Solver&descAlignY=58&descAlign=50&descSize=18&descColor=a5b4fc" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:6366f1,100:8b5cf6&height=200&section=header&text=Sachu%20James&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%20%E2%80%A2%20Low-Latency%20Systems%20%E2%80%A2%20FinTech%20Aspirant&descAlignY=58&descAlign=50&descSize=18&descColor=a5b4fc" width="100%"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=50&lines=🔍+Building+ProjectZyra+—+AI+Price+Comparison+Engine;📚+5th+Sem+CSE+%40+APJ+Abdul+Kalam+University;🎯+Targeting+SDE+%40+FinTech+%2F+HFT+by+2027;⚡+FastAPI+%7C+React+%7C+PostgreSQL+%7C+Redis+%7C+Docker" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=750&lines=Backend+engineer+building+low-latency+distributed+systems;Built+price+comparison+engine+with+0.004s+cache+response;FastAPI+%7C+PostgreSQL+%7C+Redis+%7C+Docker+%7C+Playwright;5th+Sem+CSE+%40+APJ+Abdul+Kalam+University+%7C+Grad+2027" alt="Typing SVG" />
 </div>
 
 <br/>
 
 <div align="center">
-  <a href="https://github.com/SachuJames?tab=followers">
-    <img src="https://img.shields.io/github/followers/SachuJames?label=Followers&style=social" alt="followers"/>
-  </a>
+  <img src="https://img.shields.io/badge/Open%20to-Backend%20SDE%20Internships-6366f1?style=flat&logo=briefcase&logoColor=white"/>
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=SachuJames&label=Profile%20Views&color=6366f1&style=flat" alt="profile views"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Open%20to-Internships%202025-6366f1?style=flat&logo=briefcase&logoColor=white"/>
+  <img src="https://komarev.com/ghpvc/?username=SachuJames&label=Profile%20Views&color=6366f1&style=flat"/>
 </div>
 
 ---
 
-## ⚡ Quick Facts
-```javascript
-const sachu = {
-  location    : "Kottayam, Kerala, India 🇮🇳",
-  university  : "APJ Abdul Kalam Technological University",
-  degree      : "B.Tech Computer Science Engineering (2027)",
-  target      : "SDE @ FinTech / HFT / Google / Microsoft",
-  flagship    : "ProjectZyra — AI-powered price comparison platform 🛍️",
-  learning    : ["Advanced DSA", "System Design", "Go Lang"],
-  strengths   : ["Backend Engineering", "Distributed Systems", "API Design"],
-  ask_me_about: ["FastAPI", "PostgreSQL", "Docker", "Redis", "Web Scraping"],
-  hobbies     : ["Coding", "Gym 💪", "Exploring tech trends"],
-  funFact     : "I find bugs faster than Google finds answers ☕"
-};
+## 🧠 What I Build
+
+Backend-focused engineer with hands-on experience building production-grade systems involving caching layers, async scraping pipelines, NLP-based data processing, and REST API design. I think in terms of latency, throughput, and tradeoffs — not just features.
+```
+Currently building: ProjectZyra
+→ Multi-platform price comparison engine
+→ Reduced price-fetch latency from 10s → 4ms using Redis
+→ Parallel async scrapers across Amazon, Flipkart, Nykaa
+→ NLP deduplication with sentence-transformers (cosine similarity)
+→ Deployed behind Nginx reverse proxy with Docker Compose
 ```
 
 ---
 
-## 🛠️ Tech Arsenal
-
-<table align="center">
-  <tr>
-    <td align="center" width="140">
-      <strong>Languages</strong>
-    </td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=python,cpp,js,c,java&theme=dark"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <strong>Backend</strong>
-    </td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=fastapi,nodejs,express&theme=dark"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <strong>Frontend</strong>
-    </td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=react,html,css,tailwind&theme=dark"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <strong>Database</strong>
-    </td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=postgresql,redis,sqlite&theme=dark"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <strong>DevOps</strong>
-    </td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=docker,nginx,linux,git,github&theme=dark"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <strong>Tools</strong>
-    </td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=vscode,postman,figma&theme=dark"/>
-    </td>
-  </tr>
-</table>
+## 🏗️ System Architecture — ProjectZyra
+```
+User Request
+     │
+     ▼
+  Nginx (reverse proxy)
+     │
+     ├──────────────────────┐
+     ▼                      ▼
+React Frontend         FastAPI Backend
+                            │
+                    ┌───────┴────────┐
+                    ▼                ▼
+              Redis Cache      asyncio.gather()
+              (TTL: 15min)    (parallel scrapers)
+                    │                │
+                    │    ┌───────────┼───────────┐
+                    │    ▼           ▼           ▼
+                    │  Amazon    Flipkart     SerpAPI
+                    │    └───────────┼───────────┘
+                    ▼                ▼
+              PostgreSQL ←── NLP Normalizer
+              (products,     (sentence-transformers
+              price_history,  cosine similarity > 0.92)
+              users, alerts)
+```
 
 ---
 
-## 🚀 Featured Project
+## ⚡ Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Cache hit response time | **4ms** (Redis) |
+| Cache miss response time | **~10s** (parallel scrape) |
+| Speedup from caching | **2,700x** |
+| Platforms scraped in parallel | **3 simultaneous** |
+| NLP similarity threshold | **0.92 cosine** |
+| Auth method | **JWT + Google OAuth 2.0** |
+
+---
+
+## 🚀 ProjectZyra — Production System
 
 <div align="center">
-
-### 🛍️ ProjectZyra — AI Price Comparison Engine
-
-<a href="https://github.com/SachuJames/ProjectZyra">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=ProjectZyra&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=8b5cf6&text_color=c9d1d9&border_radius=12" />
-</a>
-
+  <a href="https://github.com/SachuJames/ProjectZyra">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=ProjectZyra&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=8b5cf6&text_color=c9d1d9&border_radius=12"/>
+  </a>
 </div>
 
 <br/>
 
+**Engineering decisions that matter:**
+
+- **Why Redis?** Scraping 3 platforms takes ~10s. Caching results with 15min TTL reduces repeat queries to 4ms — 2,700x improvement
+- **Why async scraping?** `asyncio.gather()` runs all platform scrapers in parallel, cutting total scrape time from ~30s to ~10s
+- **Why NLP matching?** "iPhone 15 128GB Black" on Amazon ≠ "APPLE iPhone 15 (128 GB) Black" on Flipkart — cosine similarity at 0.92 threshold correctly groups them
+- **Why Nginx?** Single entry point for frontend + API. Handles routing, avoids CORS issues in production
+
+**Stack:** `Python 3.11` `FastAPI` `React 18` `PostgreSQL 15` `Redis 7` `Playwright` `sentence-transformers` `Docker` `Nginx` `JWT` `SerpAPI`
+
+---
+
+## 🛠️ Tech Stack
+
 <table align="center">
   <tr>
-    <td>🤖 NLP product matching</td>
-    <td>⚡ 0.004s Redis cache hits</td>
-    <td>📊 Price history charts</td>
+    <td align="center"><strong>Languages</strong></td>
+    <td><img src="https://skillicons.dev/icons?i=python,cpp,js,c,java&theme=dark"/></td>
   </tr>
   <tr>
-    <td>🔔 Price drop alerts</td>
-    <td>👤 Google OAuth + JWT</td>
-    <td>🐳 Dockerized + Nginx</td>
+    <td align="center"><strong>Backend</strong></td>
+    <td><img src="https://skillicons.dev/icons?i=fastapi,nodejs,express&theme=dark"/></td>
   </tr>
   <tr>
-    <td>🌐 Multi-platform scraping</td>
-    <td>🧠 Gemini AI summaries</td>
-    <td>📱 Admin dashboard</td>
+    <td align="center"><strong>Frontend</strong></td>
+    <td><img src="https://skillicons.dev/icons?i=react,html,css,tailwind&theme=dark"/></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Database & Cache</strong></td>
+    <td><img src="https://skillicons.dev/icons?i=postgresql,redis&theme=dark"/></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>DevOps</strong></td>
+    <td><img src="https://skillicons.dev/icons?i=docker,nginx,linux,git&theme=dark"/></td>
   </tr>
 </table>
 
-**Stack:** `Python` `FastAPI` `React` `PostgreSQL` `Redis` `Playwright` `sentence-transformers` `Docker`
-
 ---
 
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SachuJames&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=8b5cf6&text_color=c9d1d9&border_radius=12&count_private=true&include_all_commits=true" height="180"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SachuJames&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=c9d1d9&border_radius=12&langs_count=8" height="180"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SachuJames&theme=tokyonight&hide_border=true&background=0d1117&ring=6366f1&fire=8b5cf6&currStreakLabel=6366f1&border_radius=12" width="70%"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SachuJames&bg_color=0d1117&color=6366f1&line=8b5cf6&point=ffffff&area=true&hide_border=true&radius=12" width="95%"/>
-</div>
-
----
-
-## 🎯 2027 Roadmap
-
-<div align="center">
+## 🎯 Engineering Roadmap
 
 | Status | Goal |
 |--------|------|
-| ✅ | Build and deploy ProjectZyra |
-| ✅ | Master Docker + Redis + PostgreSQL |
-| 🔄 | Complete Striver's DSA Sheet (Graphs + DP) |
-| 🔄 | Deep dive OS, DBMS, Networks, OOP |
-| ⏳ | Land SDE Internship at FinTech / HFT firm |
-| ⏳ | Build 2 more production-grade projects |
-| ⏳ | Crack placements 2027 — Google / Microsoft / FinTech |
-
-</div>
+| ✅ | Built and deployed ProjectZyra — production-grade price comparison engine |
+| ✅ | Implemented Redis caching layer (2,700x latency improvement) |
+| ✅ | Built async parallel scraping pipeline with NLP deduplication |
+| ✅ | JWT auth + Google OAuth + role-based dashboard |
+| 🔄 | Completing Striver's DSA Sheet — Graphs + DP |
+| 🔄 | Deep dive: OS, DBMS, Computer Networks, OOP |
+| ⏳ | Build order matching engine (HFT-style project) |
+| ⏳ | Land backend SDE internship at FinTech / HFT firm |
+| ⏳ | Crack 2027 placements — Google / Microsoft / FinTech |
 
 ---
 
@@ -179,17 +150,16 @@ const sachu = {
 
 ---
 
-## 📫 Let's Connect
+## 📫 Connect
 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-SachuJames-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SachuJames)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sachu%20James-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sachu-li)
-[![Twitter](https://img.shields.io/badge/Twitter-@sachu__jamez-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sachu_jamez)
 
 <br/>
 
-**Open to backend SDE internships, collaborations, and interesting problems.**
+**Backend SDE internships • Collaborations • Interesting engineering problems**
 
 </div>
 
