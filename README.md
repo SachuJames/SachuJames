@@ -122,21 +122,7 @@ React Frontend         FastAPI Backend
 
 ---
 
-## 🎯 Engineering Roadmap
 
-| Status | Goal |
-|--------|------|
-| ✅ | Built and deployed ProjectZyra — production-grade price comparison engine |
-| ✅ | Implemented Redis caching layer (2,700x latency improvement) |
-| ✅ | Built async parallel scraping pipeline with NLP deduplication |
-| ✅ | JWT auth + Google OAuth + role-based dashboard |
-| 🔄 | Completing Striver's DSA Sheet — Graphs + DP |
-| 🔄 | Deep dive: OS, DBMS, Computer Networks, OOP |
-| ⏳ | Build order matching engine (HFT-style project) |
-| ⏳ | Land backend SDE internship at FinTech / HFT firm |
-| ⏳ | Crack 2027 placements — Google / Microsoft / FinTech |
-
----
 
 ## 🏆 Certifications
 
