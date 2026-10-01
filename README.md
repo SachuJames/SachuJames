@@ -1,19 +1,19 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:6366f1,100:8b5cf6&height=200&section=header&text=Sachu%20James&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%20%E2%80%A2%20Low-Latency%20Systems%20%E2%80%A2%20FinTech%20Aspirant&descAlignY=58&descAlign=50&descSize=18&descColor=a5b4fc" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:0e7490,100:22d3ee&height=200&section=header&text=Sachu%20James&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%20%E2%80%A2%20Low-Latency%20Systems%20%E2%80%A2%20FinTech%20Aspirant&descAlignY=58&descAlign=50&descSize=18&descColor=99f6e4" width="100%"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=750&lines=Backend+engineer+building+low-latency+distributed+systems;Shipped+an+API+gateway%3A+Fastify%2C+Redis%2C+Postgres%2C+React;Rust+systems+tooling+%2B+open-source+contributor;5th+Sem+CSE+%40+KTU+%7C+Graduating+2027" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=750&lines=Backend+engineer+building+low-latency+distributed+systems;Shipped+an+API+gateway%3A+Fastify%2C+Redis%2C+Postgres%2C+React;Rust+systems+tooling+%2B+open-source+contributor;5th+Sem+CSE+%40+KTU+%7C+Graduating+2027" alt="Typing SVG" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Open%20to-SDE%20%2F%20Backend%20Roles-6366f1?style=flat&logo=briefcase&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Open%20to-SDE%20%2F%20Backend%20Roles-0ea5e9?style=flat&logo=briefcase&logoColor=white"/>
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=SachuJames&label=Profile%20Views&color=6366f1&style=flat"/>
+  <img src="https://komarev.com/ghpvc/?username=SachuJames&label=Profile%20Views&color=22d3ee&style=flat"/>
 </div>
 
 ---
@@ -35,10 +35,10 @@ Shipped:
 
 <div align="center">
   <a href="https://github.com/SachuJames/lightweight-api-gateway">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=lightweight-api-gateway&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=8b5cf6&text_color=c9d1d9&border_radius=12"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=lightweight-api-gateway&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9&border_radius=12"/>
   </a>
   <a href="https://github.com/SachuJames/linux-digital-detective">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=linux-digital-detective&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=8b5cf6&text_color=c9d1d9&border_radius=12"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=linux-digital-detective&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9&border_radius=12"/>
   </a>
 </div>
 
@@ -140,7 +140,7 @@ Real contributions to Python backend projects:
 
 [![GitHub](https://img.shields.io/badge/GitHub-SachuJames-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SachuJames)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sachu%20James-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sachu-li)
-[![Portfolio](https://img.shields.io/badge/Portfolio-sachu--james.vercel.app-6366f1?style=for-the-badge&logo=vercel&logoColor=white)](https://sachu-james.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-sachu--james.vercel.app-14b8a6?style=for-the-badge&logo=vercel&logoColor=white)](https://sachu-james.vercel.app/)
 
 <br/>
 
@@ -151,5 +151,5 @@ Real contributions to Python backend projects:
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:6366f1,100:0a0a0f&height=120&section=footer&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:0e7490,100:0a0a0f&height=120&section=footer&animation=fadeIn" width="100%"/>
 </div>
