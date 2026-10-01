@@ -20,11 +20,10 @@
 
 ## 🧠 What I Build
 
-Backend-focused engineer with hands-on experience building production-grade systems involving caching layers, async pipelines, reverse proxies, and REST API design. I think in terms of latency, throughput, and tradeoffs — not just features.
+Backend-focused engineer with hands-on experience building production-grade systems involving reverse proxies, caching layers, async pipelines, and REST API design. I think in terms of latency, throughput, and tradeoffs — not just features.
 
 ```
 Shipped:
-→ ProjectZyra — multi-platform price comparison engine (10s → 4ms via Redis)
 → lightweight-api-gateway — programmable HTTP gateway (Fastify, Redis Lua
   rate limiting, circuit breakers, zero-downtime config reload)
 → linux-digital-detective — Rust forensics toolkit (92 tests, clippy-clean)
@@ -41,52 +40,47 @@ Shipped:
   <a href="https://github.com/SachuJames/linux-digital-detective">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=linux-digital-detective&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=8b5cf6&text_color=c9d1d9&border_radius=12"/>
   </a>
-  <a href="https://github.com/SachuJames/ProjectZyra">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=ProjectZyra&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=8b5cf6&text_color=c9d1d9&border_radius=12"/>
-  </a>
 </div>
 
 ---
 
-## 🏗️ System Architecture — ProjectZyra
+## ⚙️ How the Gateway Works
+
 ```
-User Request
+Client request
      │
      ▼
-  Nginx (reverse proxy)
+Fastify (HTTP/HTTPS) — request ID + structured JSON logs
      │
-     ├──────────────────────┐
-     ▼                      ▼
-React Frontend         FastAPI Backend
-                            │
-                    ┌───────┴────────┐
-                    ▼                ▼
-              Redis Cache      asyncio.gather()
-              (TTL: 15min)    (parallel scrapers)
-                    │                │
-                    │    ┌───────────┼───────────┐
-                    │    ▼           ▼           ▼
-                    │  Amazon    Flipkart     SerpAPI
-                    │    └───────────┼───────────┘
-                    ▼                ▼
-              PostgreSQL ←── NLP Normalizer
-              (products,     (sentence-transformers
-              price_history,  cosine similarity > 0.92)
-              users, alerts)
+     ▼
+Routing engine — compiled regexes, priority then specificity
+     │
+     ▼
+Middleware chain — JWT auth + RBAC → plugin hooks →
+│   Redis Lua token-bucket rate limiting → circuit breaker
+     │
+     ▼
+Reverse proxy (undici) — streaming, per-route timeouts
+     │
+     ▼
+Upstream service
+
+Config plane (zero restarts):
+PostgreSQL (source of truth) → versioned snapshots →
+│   Redis pub/sub → every instance swaps atomically
 ```
 
 ---
 
-## ⚡ Performance Metrics
+## 📊 Measured, Not Claimed
 
 | Metric | Value |
 |--------|-------|
-| Cache hit response time | **4ms** (Redis) |
-| Cache miss response time | **~10s** (parallel scrape) |
-| Speedup from caching | **2,700x** |
-| Platforms scraped in parallel | **3 simultaneous** |
-| NLP similarity threshold | **0.92 cosine** |
-| Auth method | **JWT + Google OAuth 2.0** |
+| Proxy overhead (p50) | **+1.9ms** vs direct upstream |
+| Route matching | **~1.2k matches/sec** over 2,000 routes |
+| Rate-limit checks | **~4.4k/sec** via Redis Lua |
+| Tests | **196 passing** (unit + integration/e2e + UI) |
+| Config reload | **zero-downtime**, versioned, audited |
 
 ---
 
