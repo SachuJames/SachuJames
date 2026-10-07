@@ -5,7 +5,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=750&lines=Backend+engineer+building+low-latency+distributed+systems;Shipped%3A+API+gateway%2C+task+queue+engine%2C+Rust+tooling;Open-source+contributor" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=750&lines=Backend+engineer+building+low-latency+distributed+systems;Shipped%3A+API+gateway%2C+task+queue%2C+Solana+programs%2C+DEX+engine;Open-source+contributor" alt="Typing SVG" />
 </div>
 
 <br/>
@@ -14,7 +14,7 @@
 
 ## About
 
-Backend engineer focused on distributed systems: reverse proxies, async task pipelines, caching layers, and REST API design. I think in terms of latency, throughput, and tradeoffs, not just features.
+Backend engineer focused on distributed systems and Web3: reverse proxies, async task pipelines, Solana programs, DEX matching engines, and REST API design. I think in terms of latency, throughput, and tradeoffs, not just features.
 
 ---
 
@@ -27,8 +27,11 @@ Backend engineer focused on distributed systems: reverse proxies, async task pip
   <a href="https://github.com/SachuJames/distributed-task-queue">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=distributed-task-queue&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9&border_radius=12"/>
   </a>
-  <a href="https://github.com/SachuJames/linux-digital-detective">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=linux-digital-detective&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9&border_radius=12"/>
+  <a href="https://github.com/SachuJames/solana-payment-streaming">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=solana-payment-streaming&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9&border_radius=12"/>
+  </a>
+  <a href="https://github.com/SachuJames/openbook-dex">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=openbook-dex&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9&border_radius=12"/>
   </a>
 </div>
 
@@ -42,6 +45,7 @@ Backend engineer focused on distributed systems: reverse proxies, async task pip
 | Route matching | **~1.2k matches/sec** over 2,000 routes |
 | Rate-limit checks | **~4.4k/sec** via Redis Lua |
 | Task queue ingest | **~1.1k tasks/sec** (measured) |
+| Solana stream lifecycle | **end-to-end green** on local validator |
 | Config reload | **zero-downtime**, versioned, audited |
 
 ---
@@ -76,9 +80,11 @@ Backend engineer focused on distributed systems: reverse proxies, async task pip
 ## Open Source
 
 - [strawberry-graphql/strawberry#4644](https://github.com/strawberry-graphql/strawberry/pull/4644) — Allow passing a dict as the config argument of Schema
-- [encode/uvicorn#3172](https://github.com/encode/uvicorn/pull/3172) — Fix TCP_NODELAY not being set on sockets accepted from a pre-bound listener
 - [Lumiwealth/lumibot#1182](https://github.com/Lumiwealth/lumibot/pull/1182) — Fix stale daily fills after loading minute data
 - [alpacahq/alpaca-py#792](https://github.com/alpacahq/alpaca-py/pull/792) — Add CashInterest model to CreateAccountRequest
+- [rotki/rotki#13282](https://github.com/rotki/rotki/pull/13282) — Save bitcoin tx checkpoints per address
+- [XRPLF/xrpl-py#1058](https://github.com/XRPLF/xrpl-py/pull/1058) — Fail closed on unknown transaction flag names
+- [ApeWorX/web3.py#3891](https://github.com/ApeWorX/web3.py/pull/3891) — Fix AsyncHTTPProvider deadlock on cancelled session-lock acquire
 
 ---
 
