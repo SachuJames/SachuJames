@@ -1,105 +1,42 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:0e7490,100:22d3ee&height=200&section=header&text=Sachu%20James&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%20%E2%80%A2%20Distributed%20Systems%20%E2%80%A2%20FinTech&descAlignY=58&descAlign=50&descSize=18&descColor=99f6e4" width="100%"/>
-</div>
+# Sachu James
 
-<br/>
+Backend engineer based in Kerala, India. B.Tech in Computer Science at KTU (2023 to 2027).
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=750&lines=Backend+engineer+building+low-latency+distributed+systems;Shipped%3A+API+gateway%2C+task+queue%2C+Solana+programs%2C+DEX+engine;Open-source+contributor" alt="Typing SVG" />
-</div>
+I build trading infrastructure and distributed systems: matching engines, task queues, double-entry ledgers, API gateways, and Solana programs. Before this I worked as a full stack developer at SpearHub (remote, Nov 2025 to Apr 2026).
 
-<br/>
+Right now I am building a limit order book and matching engine in Rust.
 
----
+## Projects
 
-## About
+**[tickforge](https://github.com/SachuJames/tickforge)** - Market microstructure simulator in C++20. Deterministic event replay with nanosecond timestamps: order book, matching, and market data generation for testing trading logic.
 
-Backend engineer focused on distributed systems and Web3: reverse proxies, async task pipelines, Solana programs, DEX matching engines, and REST API design. I think in terms of latency, throughput, and tradeoffs, not just features.
+**[distributed-task-queue](https://github.com/SachuJames/distributed-task-queue)** - Task queue on Redis Streams. Retries with backoff, idempotent enqueue, backpressure, dead-letter queues, Prometheus metrics, and a live dashboard.
 
----
+**[ledger-forge](https://github.com/SachuJames/ledger-forge)** - Double-entry accounting ledger. A Go core owns the money math (balanced journals, idempotent posting, materialized balances) and a NestJS gateway owns auth and the API.
 
-## Featured Projects
+**[lightweight-api-gateway](https://github.com/SachuJames/lightweight-api-gateway)** - HTTP API gateway in Node.js and Fastify: routing, Redis rate limiting, circuit breakers, JWT auth, config hot reload, and a React admin UI.
 
-<div align="center">
-  <a href="https://github.com/SachuJames/lightweight-api-gateway">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=lightweight-api-gateway&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9&border_radius=12"/>
-  </a>
-  <a href="https://github.com/SachuJames/distributed-task-queue">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=distributed-task-queue&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9&border_radius=12"/>
-  </a>
-  <a href="https://github.com/SachuJames/solana-payment-streaming">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=solana-payment-streaming&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9&border_radius=12"/>
-  </a>
-  <a href="https://github.com/SachuJames/openbook-dex">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=openbook-dex&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9&border_radius=12"/>
-  </a>
-</div>
+**[solana-payment-streaming](https://github.com/SachuJames/solana-payment-streaming)** - SolStream: stream SPL tokens per second on Solana, with cliffs, cancellation, a TypeScript SDK, and a dashboard.
 
----
+**[agent-pay](https://github.com/SachuJames/agent-pay)** - Payment rails for AI agents: per-agent wallets, spending limits, human approval for large transfers, a double-entry ledger, and Solana settlement.
 
-## Measured, Not Claimed
+## Open source
 
-| Metric | Value |
-|--------|-------|
-| Gateway proxy overhead (p50) | **+1.9ms** vs direct upstream |
-| Route matching | **~1.2k matches/sec** over 2,000 routes |
-| Rate-limit checks | **~4.4k/sec** via Redis Lua |
-| Task queue ingest | **~1.1k tasks/sec** (measured) |
-| Solana stream lifecycle | **end-to-end green** on local validator |
-| Config reload | **zero-downtime**, versioned, audited |
+Open pull requests in Python fintech and Web3 libraries. None merged yet; the rotki one is deep in maintainer review.
 
----
+- [rotki/rotki#13282](https://github.com/rotki/rotki/pull/13282) - bitcoin tx checkpoints per address (five rounds of review feedback addressed)
+- [Lumiwealth/lumibot#1182](https://github.com/Lumiwealth/lumibot/pull/1182) - fix stale daily fills after loading minute data
+- [alpacahq/alpaca-py#792](https://github.com/alpacahq/alpaca-py/pull/792) - add the CashInterest model to account requests
+- [massive-com/client-python#1034](https://github.com/massive-com/client-python/pull/1034) - honor SSL_CERT_FILE and REQUESTS_CA_BUNDLE for TLS config
+- [strawberry-graphql/strawberry#4644](https://github.com/strawberry-graphql/strawberry/pull/4644) - allow a dict as the Schema config argument
+- [XRPLF/xrpl-py#1058](https://github.com/XRPLF/xrpl-py/pull/1058) - fail closed on unknown transaction flag names
+- [ApeWorX/web3.py#3891](https://github.com/ApeWorX/web3.py/pull/3891) - fix an AsyncHTTPProvider deadlock on a cancelled lock acquire
+- [ApeWorX/eth-abi#274](https://github.com/ApeWorX/eth-abi/pull/274) - make encoding errors subclass ValueError and TypeError
 
-## Tech Stack
+## Stack
 
-<table align="center">
-  <tr>
-    <td align="center"><strong>Languages</strong></td>
-    <td><img src="https://skillicons.dev/icons?i=python,rust,cpp,js,ts,c,java&theme=dark"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Backend</strong></td>
-    <td><img src="https://skillicons.dev/icons?i=fastapi,nodejs,express&theme=dark"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Frontend</strong></td>
-    <td><img src="https://skillicons.dev/icons?i=react,html,css,tailwind&theme=dark"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Database & Cache</strong></td>
-    <td><img src="https://skillicons.dev/icons?i=postgresql,redis&theme=dark"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>DevOps</strong></td>
-    <td><img src="https://skillicons.dev/icons?i=docker,nginx,linux,git&theme=dark"/></td>
-  </tr>
-</table>
+Python, Go, Rust, TypeScript, Java, C++. FastAPI, Node.js, NestJS, Spring Boot. Postgres, Redis, Docker. Solana (Anchor), web3.py, xrpl-py.
 
----
+## Links
 
-## Open Source
-
-- [strawberry-graphql/strawberry#4644](https://github.com/strawberry-graphql/strawberry/pull/4644) — Allow passing a dict as the config argument of Schema
-- [Lumiwealth/lumibot#1182](https://github.com/Lumiwealth/lumibot/pull/1182) — Fix stale daily fills after loading minute data
-- [alpacahq/alpaca-py#792](https://github.com/alpacahq/alpaca-py/pull/792) — Add CashInterest model to CreateAccountRequest
-- [rotki/rotki#13282](https://github.com/rotki/rotki/pull/13282) — Save bitcoin tx checkpoints per address
-- [XRPLF/xrpl-py#1058](https://github.com/XRPLF/xrpl-py/pull/1058) — Fail closed on unknown transaction flag names
-- [ApeWorX/web3.py#3891](https://github.com/ApeWorX/web3.py/pull/3891) — Fix AsyncHTTPProvider deadlock on cancelled session-lock acquire
-
----
-
-## Connect
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-SachuJames-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SachuJames)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sachu%20James-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sachu-li)
-[![Portfolio](https://img.shields.io/badge/Portfolio-sachu--james.vercel.app-14b8a6?style=for-the-badge&logo=vercel&logoColor=white)](https://sachu-james.vercel.app/)
-
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:0e7490,100:0a0a0f&height=120&section=footer&animation=fadeIn" width="100%"/>
-</div>
+[Portfolio](https://sachu-james.vercel.app/) · [LinkedIn](https://linkedin.com/in/sachu-li) · sachujames15543@gmail.com
