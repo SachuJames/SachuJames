@@ -1,12 +1,14 @@
-# Sachu James
+# Hi, I'm Sachu James 👋
 
-Backend engineer based in Kerala, India. B.Tech in Computer Science at KTU (2023 to 2027).
+Backend engineer based in Kerala, India. I build trading infrastructure and distributed systems: matching engines, task queues, double-entry ledgers, API gateways, and Solana programs.
 
-I build trading infrastructure and distributed systems: matching engines, task queues, double-entry ledgers, API gateways, and Solana programs. Before this I worked as a full stack developer at SpearHub (remote, Nov 2025 to Apr 2026).
+🎓 B.Tech in Computer Science at KTU (2023 to 2027)
+💼 Previously a full stack developer at SpearHub (remote, Nov 2025 to Apr 2026)
+🔭 Currently building a limit order book and matching engine in Rust
 
-Right now I am building a limit order book and matching engine in Rust.
+---
 
-## Projects
+## 🚀 Projects
 
 **[tickforge](https://github.com/SachuJames/tickforge)** - Market microstructure simulator in C++20. Deterministic event replay with nanosecond timestamps: order book, matching, and market data generation for testing trading logic.
 
@@ -20,7 +22,9 @@ Right now I am building a limit order book and matching engine in Rust.
 
 **[agent-pay](https://github.com/SachuJames/agent-pay)** - Payment rails for AI agents: per-agent wallets, spending limits, human approval for large transfers, a double-entry ledger, and Solana settlement.
 
-## Open source
+---
+
+## 🌱 Open Source
 
 Open pull requests in Python fintech and Web3 libraries. None merged yet; the rotki one is deep in maintainer review.
 
@@ -33,10 +37,48 @@ Open pull requests in Python fintech and Web3 libraries. None merged yet; the ro
 - [ApeWorX/web3.py#3891](https://github.com/ApeWorX/web3.py/pull/3891) - fix an AsyncHTTPProvider deadlock on a cancelled lock acquire
 - [ApeWorX/eth-abi#274](https://github.com/ApeWorX/eth-abi/pull/274) - make encoding errors subclass ValueError and TypeError
 
-## Stack
+---
 
-Python, Go, Rust, TypeScript, Java, C++. FastAPI, Node.js, NestJS, Spring Boot. Postgres, Redis, Docker. Solana (Anchor), web3.py, xrpl-py.
+## 🛠️ Tech Stack
 
-## Links
+**Languages**
 
-[Portfolio](https://sachu-james.vercel.app/) · [LinkedIn](https://linkedin.com/in/sachu-li) · sachujames15543@gmail.com
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+
+**Backend**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+
+**Data, DevOps, Web3**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat&logo=solana&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)
+
+---
+
+## 📊 GitHub Stats
+
+<div>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SachuJames&show_icons=true&theme=tokyonight&hide_border=true" alt="Sachu's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SachuJames&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+</div>
+
+---
+
+## 🔗 Links
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-sachu--james.vercel.app-14B8A6?style=flat&logo=vercel&logoColor=white)](https://sachu-james.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sachu_James-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/sachu-li)
+[![Email](https://img.shields.io/badge/Email-sachujames15543@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:sachujames15543@gmail.com)
