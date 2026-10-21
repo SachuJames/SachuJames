@@ -18,11 +18,6 @@ Backend engineer based in Kerala, India, working on trading infrastructure, dist
 
 Currently building **Meridian**, a memory-mapped columnar store for time-series data in Rust.
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SachuJames&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9" alt="GitHub stats" height="165"/>
-  <img src="https://streak-stats.demolab.com?user=SachuJames&hide_border=true&background=0d1117&ring=22d3ee&fire=22d3ee&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=22d3ee&sideLabels=c9d1d9&dates=8b949e" alt="Contribution streak" height="165"/>
-</div>
-
 ---
 
 ## Featured Work
@@ -80,10 +75,6 @@ Currently building **Meridian**, a memory-mapped columnar store for time-series 
 </table>
 
 Working with Solana and Anchor, the XRP Ledger, Redis Streams, and Prometheus day to day.
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SachuJames&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9" alt="Top languages"/>
-</div>
 
 ---
 
