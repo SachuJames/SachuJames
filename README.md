@@ -14,7 +14,7 @@
 
 ## About
 
-Backend engineer based in Kerala, India, focused on distributed systems and Web3: matching engines, async task pipelines, Solana programs, DEX engines, and REST API design. B.Tech in Computer Science at KTU (2023 to 2027). Previously a full stack developer at SpearHub (remote, Nov 2025 to Apr 2026). Currently building a limit order book and matching engine in Rust.
+Backend engineer based in Kerala, India, focused on distributed systems and Web3: matching engines, async task pipelines, Solana programs, DEX engines, and REST API design. B.Tech in Computer Science at KTU (2023 to 2027). Previously a full stack developer at SpearHub (remote, Nov 2025 to Apr 2026). Recent builds include a limit order book and an ITCH feed handler in Rust, plus a limit order book that runs entirely on-chain in Solidity.
 
 ---
 
@@ -48,7 +48,7 @@ Backend engineer based in Kerala, India, focused on distributed systems and Web3
 <table align="center">
   <tr>
     <td align="center"><strong>Languages</strong></td>
-    <td><img src="https://skillicons.dev/icons?i=python,go,rust,cpp,ts,js,java&theme=dark"/></td>
+    <td><img src="https://skillicons.dev/icons?i=python,go,rust,cpp,ts,js,java,solidity&theme=dark"/></td>
   </tr>
   <tr>
     <td align="center"><strong>Backend</strong></td>
@@ -64,7 +64,7 @@ Backend engineer based in Kerala, India, focused on distributed systems and Web3
   </tr>
   <tr>
     <td align="center"><strong>DevOps</strong></td>
-    <td><img src="https://skillicons.dev/icons?i=docker,nginx,linux,git&theme=dark"/></td>
+    <td><img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,nginx,linux,git&theme=dark"/></td>
   </tr>
 </table>
 
@@ -72,16 +72,21 @@ Backend engineer based in Kerala, India, focused on distributed systems and Web3
 
 ## Open Source
 
-Open pull requests in Python fintech and Web3 libraries. None merged yet; the rotki one is deep in maintainer review.
+Contributions to Python, Rust, and Web3 libraries. One fix has shipped so far; the rest are open, and the rotki one is deep in maintainer review.
+
+**Shipped:** [massive-com/client-python](https://github.com/massive-com/client-python/pull/1040) - my TLS configuration fix (PR #1034) was folded in by the maintainer and released in v2.9.0, with a co-author credit.
+
+Open:
 
 - [rotki/rotki#13282](https://github.com/rotki/rotki/pull/13282) - Save bitcoin tx checkpoints per address (five rounds of review feedback addressed)
 - [Lumiwealth/lumibot#1182](https://github.com/Lumiwealth/lumibot/pull/1182) - Fix stale daily fills after loading minute data
 - [alpacahq/alpaca-py#792](https://github.com/alpacahq/alpaca-py/pull/792) - Add CashInterest model to CreateAccountRequest
-- [massive-com/client-python#1034](https://github.com/massive-com/client-python/pull/1034) - Honor SSL_CERT_FILE and REQUESTS_CA_BUNDLE for TLS config
 - [strawberry-graphql/strawberry#4644](https://github.com/strawberry-graphql/strawberry/pull/4644) - Allow passing a dict as the config argument of Schema
 - [XRPLF/xrpl-py#1058](https://github.com/XRPLF/xrpl-py/pull/1058) - Fail closed on unknown transaction flag names
+- [XRPLF/xrpl-py#1064](https://github.com/XRPLF/xrpl-py/pull/1064) - Add a debug option to submit_and_wait
 - [ApeWorX/web3.py#3891](https://github.com/ApeWorX/web3.py/pull/3891) - Fix AsyncHTTPProvider deadlock on cancelled session-lock acquire
 - [ApeWorX/eth-abi#274](https://github.com/ApeWorX/eth-abi/pull/274) - Make encoding errors subclass ValueError and TypeError
+- [otter-sec/anchor#5196](https://github.com/otter-sec/anchor/pull/5196) - Stop dropping shutdown_wait and upgradeable when Test.toml extends a base config
 
 ---
 
