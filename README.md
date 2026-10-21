@@ -5,7 +5,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=750&lines=Backend+engineer+building+trading+infrastructure;Shipped%3A+matching+engine%2C+task+queue%2C+ledger%2C+Solana+programs;Open-source+contributor" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=750&lines=Backend+engineer+building+trading+infrastructure;Shipped%3A+matching+engines%2C+task+queues%2C+ledgers%2C+Solana+programs;Open-source+contributor" alt="Typing SVG" />
 </div>
 
 <br/>
@@ -14,32 +14,38 @@
 
 ## About
 
-Backend engineer based in Kerala, India, focused on distributed systems and Web3: matching engines, async task pipelines, Solana programs, DEX engines, and REST API design. B.Tech in Computer Science at KTU (2023 to 2027). Previously a full stack developer at SpearHub (remote, Nov 2025 to Apr 2026). Recent builds include a limit order book and an ITCH feed handler in Rust, plus a limit order book that runs entirely on-chain in Solidity.
+Backend engineer based in Kerala, India, working on trading infrastructure, distributed systems, and Web3. B.Tech in Computer Science at KTU (2023 to 2027). Previously a full stack developer at SpearHub (remote, Nov 2025 to Apr 2026).
+
+Currently building **Meridian**, a memory-mapped columnar store for time-series data in Rust.
 
 ---
 
-## Featured Projects
+## Featured Work
 
-<div align="center">
-  <a href="https://github.com/SachuJames/tickforge">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=tickforge&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9&border_radius=12"/>
-  </a>
-  <a href="https://github.com/SachuJames/distributed-task-queue">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=distributed-task-queue&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9&border_radius=12"/>
-  </a>
-  <a href="https://github.com/SachuJames/ledger-forge">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=ledger-forge&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9&border_radius=12"/>
-  </a>
-  <a href="https://github.com/SachuJames/lightweight-api-gateway">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=lightweight-api-gateway&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9&border_radius=12"/>
-  </a>
-  <a href="https://github.com/SachuJames/solana-payment-streaming">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=solana-payment-streaming&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9&border_radius=12"/>
-  </a>
-  <a href="https://github.com/SachuJames/agent-pay">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=SachuJames&repo=agent-pay&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=2dd4bf&text_color=c9d1d9&border_radius=12"/>
-  </a>
-</div>
+**Trading and Market Infrastructure**
+
+- **[tickforge](https://github.com/SachuJames/tickforge)** - Deterministic nanosecond-precision market microstructure simulator and matching engine (C++20), fully reproducible runs.
+- **[limit-order-book](https://github.com/SachuJames/limit-order-book)** - Price-time priority matching engine in Rust: dense price levels, pooled orders, zero-allocation hot path.
+- **[chainbook](https://github.com/SachuJames/chainbook)** - A limit order book that lives entirely on-chain (Solidity, Foundry): escrowed funds, price-time priority, partial fills.
+- **[itch-feed](https://github.com/SachuJames/itch-feed)** - ITCH 5.0 market data feed handler in Rust: seeded UDP simulator, lock-free SPSC ring buffer, gap detection with retransmit requests.
+
+**Distributed Systems and Backend**
+
+- **[distributed-task-queue](https://github.com/SachuJames/distributed-task-queue)** - Redis Streams task queue with retries, idempotency, backpressure, dead-letter queues, and live observability.
+- **[ledger-forge](https://github.com/SachuJames/ledger-forge)** - Double-entry accounting ledger (Go core, NestJS API) with idempotent posting and a live WebSocket feed.
+- **[lightweight-api-gateway](https://github.com/SachuJames/lightweight-api-gateway)** - Programmable HTTP API gateway (Node.js, Fastify, Redis, PostgreSQL) with a React dashboard.
+- **[skypod](https://github.com/SachuJames/skypod)** - A small Go service run like a platform: Helm chart with autoscaling, Terraform for EKS, Prometheus dashboards and alerts, ArgoCD.
+
+**AI Agents and Tooling**
+
+- **[agent-pay](https://github.com/SachuJames/agent-pay)** - Payment rails for AI agents: wallets, spending limits, human-in-the-loop approvals, double-entry ledger, on-chain settlement.
+- **[mcp-gateway](https://github.com/SachuJames/mcp-gateway)** - Gateway for Model Context Protocol servers: auth, scopes, rate limiting, audit logging.
+- **[agent-evals](https://github.com/SachuJames/agent-evals)** - Evaluation harness for AI agents: YAML task suites, tool-use loop, scorers, traces, regression tracking.
+
+**More**
+
+- **[solana-payment-streaming](https://github.com/SachuJames/solana-payment-streaming)** - Solana payment-streaming protocol: SPL tokens per second, cliffs, cancellations, TypeScript SDK.
+- **[cloudtrim](https://github.com/SachuJames/cloudtrim)** - Kubernetes rightsizing CLI (Python, published on PyPI): compares requests against real usage and prices the waste.
 
 ---
 
@@ -67,6 +73,8 @@ Backend engineer based in Kerala, India, focused on distributed systems and Web3
     <td><img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,nginx,linux,git&theme=dark"/></td>
   </tr>
 </table>
+
+Working with Solana and Anchor, the XRP Ledger, Redis Streams, and Prometheus day to day.
 
 ---
 
