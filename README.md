@@ -1,12 +1,21 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:0e7490,100:22d3ee&height=200&section=header&text=Sachu%20James&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%20%E2%80%A2%20Distributed%20Systems%20%E2%80%A2%20FinTech&descAlignY=58&descAlign=50&descSize=18&descColor=99f6e4" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020402,50:0a1a0e,100:166534&height=200&section=header&text=Sachu%20James&fontSize=50&fontColor=f0fff4&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%20%E2%80%A2%20Distributed%20Systems%20%E2%80%A2%20FinTech&descAlignY=58&descAlign=50&descSize=18&descColor=86efac" width="100%"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=750&lines=Backend+engineer+building+trading+infrastructure;Shipped%3A+matching+engines%2C+task+queues%2C+ledgers%2C+Solana+programs;Open-source+contributor" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=1000&color=2EE66B&center=true&vCenter=true&width=750&lines=Backend+engineer+building+trading+infrastructure;Shipped%3A+matching+engines%2C+task+queues%2C+ledgers%2C+Solana+programs;Open-source+contributor" alt="Typing SVG" />
 </div>
+
+<br/>
+
+```text
+$ ./sachu --stack
+rust, go, python, typescript, solidity
+$ ./sachu --status
+building meridian, a memory-mapped columnar store in rust
+```
 
 <br/>
 
@@ -102,14 +111,14 @@ Open:
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-SachuJames-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SachuJames)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sachu%20James-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sachu-li)
-[![Portfolio](https://img.shields.io/badge/Portfolio-sachu--james.vercel.app-14b8a6?style=for-the-badge&logo=vercel&logoColor=white)](https://sachu-james.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-SachuJames-0a0f0a?style=for-the-badge&logo=github&logoColor=2ee66b)](https://github.com/SachuJames)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sachu%20James-0a0f0a?style=for-the-badge&logo=linkedin&logoColor=2ee66b)](https://linkedin.com/in/sachu-li)
+[![Portfolio](https://img.shields.io/badge/Portfolio-sachu--james.vercel.app-0a0f0a?style=for-the-badge&logo=vercel&logoColor=2ee66b)](https://sachu-james.vercel.app/)
 
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:0e7490,100:0a0a0f&height=120&section=footer&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:166534,50:0a1a0e,100:020402&height=120&section=footer&animation=fadeIn" width="100%"/>
 </div>
