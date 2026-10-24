@@ -94,7 +94,6 @@ Open:
 - [XRPLF/xrpl-py#1064](https://github.com/XRPLF/xrpl-py/pull/1064) - Add a debug option to submit_and_wait
 - [ApeWorX/web3.py#3891](https://github.com/ApeWorX/web3.py/pull/3891) - Fix AsyncHTTPProvider deadlock on cancelled session-lock acquire
 - [ApeWorX/eth-abi#274](https://github.com/ApeWorX/eth-abi/pull/274) - Make encoding errors subclass ValueError and TypeError
-- [otter-sec/anchor#5196](https://github.com/otter-sec/anchor/pull/5196) - Stop dropping shutdown_wait and upgradeable when Test.toml extends a base config
 
 ---
 
