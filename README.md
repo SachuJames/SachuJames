@@ -89,7 +89,6 @@ Open:
 - [rotki/rotki#13282](https://github.com/rotki/rotki/pull/13282) - Save bitcoin tx checkpoints per address (five rounds of review feedback addressed)
 - [Lumiwealth/lumibot#1182](https://github.com/Lumiwealth/lumibot/pull/1182) - Fix stale daily fills after loading minute data
 - [alpacahq/alpaca-py#792](https://github.com/alpacahq/alpaca-py/pull/792) - Add CashInterest model to CreateAccountRequest
-- [strawberry-graphql/strawberry#4644](https://github.com/strawberry-graphql/strawberry/pull/4644) - Allow passing a dict as the config argument of Schema
 - [XRPLF/xrpl-py#1058](https://github.com/XRPLF/xrpl-py/pull/1058) - Fail closed on unknown transaction flag names
 - [XRPLF/xrpl-py#1064](https://github.com/XRPLF/xrpl-py/pull/1064) - Add a debug option to submit_and_wait
 - [ApeWorX/web3.py#3891](https://github.com/ApeWorX/web3.py/pull/3891) - Fix AsyncHTTPProvider deadlock on cancelled session-lock acquire
