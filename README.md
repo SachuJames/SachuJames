@@ -80,13 +80,13 @@ Working with Solana and Anchor, the XRP Ledger, Redis Streams, and Prometheus da
 
 ## Open Source
 
-Contributions to Python, Rust, and Web3 libraries. One fix has shipped so far; the rest are open, and the rotki one is deep in maintainer review.
+Contributions to Python, Rust, and Web3 libraries. Two fixes have shipped so far; the rest are open.
 
 **Shipped:** [massive-com/client-python](https://github.com/massive-com/client-python/pull/1040) - my TLS configuration fix (PR #1034) was folded in by the maintainer and released in v2.9.0, with a co-author credit.
 
-Open:
+[rotki/rotki#13282](https://github.com/rotki/rotki/pull/13282) - Save bitcoin tx checkpoints per address, merged into develop on Oct 29, 2026.
 
-- [rotki/rotki#13282](https://github.com/rotki/rotki/pull/13282) - Save bitcoin tx checkpoints per address (five rounds of review feedback addressed)
+Open:
 - [Lumiwealth/lumibot#1182](https://github.com/Lumiwealth/lumibot/pull/1182) - Fix stale daily fills after loading minute data
 - [alpacahq/alpaca-py#792](https://github.com/alpacahq/alpaca-py/pull/792) - Add CashInterest model to CreateAccountRequest
 - [XRPLF/xrpl-py#1058](https://github.com/XRPLF/xrpl-py/pull/1058) - Fail closed on unknown transaction flag names
