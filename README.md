@@ -82,16 +82,54 @@ Working with Solana and Anchor, the XRP Ledger, Redis Streams, and Prometheus da
 
 The installable side of the projects above. Everything here is published and public:
 
-| Package | What it is | Get it |
-|---|---|---|
-| [cloudtrim-cli](https://pypi.org/project/cloudtrim-cli/) | The cloudtrim rightsizing CLI, on PyPI | `pip install cloudtrim-cli` |
-| [dtq-api](https://github.com/users/SachuJames/packages/container/package/dtq-api) · [dtq-worker](https://github.com/users/SachuJames/packages/container/package/dtq-worker) · [dtq-dashboard](https://github.com/users/SachuJames/packages/container/package/dtq-dashboard) | Container images for the Distributed Task Queue (API, worker, dashboard) | `docker pull ghcr.io/sachujames/dtq-api` |
-| [mcp-gateway](https://github.com/users/SachuJames/packages/container/package/mcp-gateway) | Container image for the MCP gateway | `docker pull ghcr.io/sachujames/mcp-gateway` |
-| [skypod](https://github.com/users/SachuJames/packages/container/package/skypod) | Container image for the skypod service | `docker pull ghcr.io/sachujames/skypod` |
-| [cloudtrim](https://github.com/users/SachuJames/packages/container/package/cloudtrim) | Container image for cloudtrim | `docker pull ghcr.io/sachujames/cloudtrim` |
-| [skypod Helm chart](https://sachujames.github.io/skypod/) | The skypod chart, from its own chart repo | `helm repo add skypod https://sachujames.github.io/skypod/` |
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <strong><a href="https://pypi.org/project/cloudtrim-cli/">cloudtrim-cli</a></strong><br/>
+      <a href="https://pypi.org/project/cloudtrim-cli/"><img src="https://img.shields.io/pypi/v/cloudtrim-cli?style=for-the-badge&logo=pypi&logoColor=white" alt="cloudtrim-cli on PyPI"/></a><br/>
+      The Kubernetes rightsizing CLI, on PyPI<br/>
+      <code>pip install cloudtrim-cli</code>
+    </td>
+    <td align="center" width="50%">
+      <strong><a href="https://github.com/SachuJames/distributed-task-queue">Distributed Task Queue images</a></strong><br/>
+      <a href="https://github.com/users/SachuJames/packages/container/package/dtq-api"><img src="https://img.shields.io/badge/GHCR-dtq--api-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="dtq-api on GHCR"/></a>
+      <a href="https://github.com/users/SachuJames/packages/container/package/dtq-worker"><img src="https://img.shields.io/badge/GHCR-dtq--worker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="dtq-worker on GHCR"/></a>
+      <a href="https://github.com/users/SachuJames/packages/container/package/dtq-dashboard"><img src="https://img.shields.io/badge/GHCR-dtq--dashboard-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="dtq-dashboard on GHCR"/></a><br/>
+      API, worker and dashboard containers<br/>
+      <code>docker pull ghcr.io/sachujames/dtq-api</code>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <strong><a href="https://github.com/users/SachuJames/packages/container/package/mcp-gateway">mcp-gateway</a></strong><br/>
+      <a href="https://github.com/users/SachuJames/packages/container/package/mcp-gateway"><img src="https://img.shields.io/badge/GHCR-mcp--gateway-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="mcp-gateway on GHCR"/></a><br/>
+      Container image for the MCP gateway<br/>
+      <code>docker pull ghcr.io/sachujames/mcp-gateway</code>
+    </td>
+    <td align="center" width="50%">
+      <strong><a href="https://github.com/users/SachuJames/packages/container/package/skypod">skypod</a></strong><br/>
+      <a href="https://github.com/users/SachuJames/packages/container/package/skypod"><img src="https://img.shields.io/badge/GHCR-skypod-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="skypod on GHCR"/></a><br/>
+      Container image for the skypod service<br/>
+      <code>docker pull ghcr.io/sachujames/skypod</code>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <strong><a href="https://github.com/users/SachuJames/packages/container/package/cloudtrim">cloudtrim</a></strong><br/>
+      <a href="https://github.com/users/SachuJames/packages/container/package/cloudtrim"><img src="https://img.shields.io/badge/GHCR-cloudtrim-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="cloudtrim on GHCR"/></a><br/>
+      Container image for cloudtrim<br/>
+      <code>docker pull ghcr.io/sachujames/cloudtrim</code>
+    </td>
+    <td align="center" width="50%">
+      <strong><a href="https://sachujames.github.io/skypod/">skypod Helm chart</a></strong><br/>
+      <a href="https://sachujames.github.io/skypod/"><img src="https://img.shields.io/badge/Helm-skypod_chart-0F1689?style=for-the-badge&logo=helm&logoColor=white" alt="skypod Helm chart"/></a><br/>
+      The skypod chart, from its own chart repo<br/>
+      <code>helm repo add skypod https://sachujames.github.io/skypod/</code>
+    </td>
+  </tr>
+</table>
 
-Full list, with versions and download counts: [the Packages tab](https://github.com/SachuJames?tab=packages).
+Versions and download counts live on [the Packages tab](https://github.com/SachuJames?tab=packages).
 
 ---
 
