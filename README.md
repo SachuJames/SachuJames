@@ -78,6 +78,23 @@ Working with Solana and Anchor, the XRP Ledger, Redis Streams, and Prometheus da
 
 ---
 
+## Packages
+
+The installable side of the projects above. Everything here is published and public:
+
+| Package | What it is | Get it |
+|---|---|---|
+| [cloudtrim-cli](https://pypi.org/project/cloudtrim-cli/) | The cloudtrim rightsizing CLI, on PyPI | `pip install cloudtrim-cli` |
+| [dtq-api](https://github.com/users/SachuJames/packages/container/package/dtq-api) · [dtq-worker](https://github.com/users/SachuJames/packages/container/package/dtq-worker) · [dtq-dashboard](https://github.com/users/SachuJames/packages/container/package/dtq-dashboard) | Container images for the Distributed Task Queue (API, worker, dashboard) | `docker pull ghcr.io/sachujames/dtq-api` |
+| [mcp-gateway](https://github.com/users/SachuJames/packages/container/package/mcp-gateway) | Container image for the MCP gateway | `docker pull ghcr.io/sachujames/mcp-gateway` |
+| [skypod](https://github.com/users/SachuJames/packages/container/package/skypod) | Container image for the skypod service | `docker pull ghcr.io/sachujames/skypod` |
+| [cloudtrim](https://github.com/users/SachuJames/packages/container/package/cloudtrim) | Container image for cloudtrim | `docker pull ghcr.io/sachujames/cloudtrim` |
+| [skypod Helm chart](https://sachujames.github.io/skypod/) | The skypod chart, from its own chart repo | `helm repo add skypod https://sachujames.github.io/skypod/` |
+
+Full list, with versions and download counts: [the Packages tab](https://github.com/SachuJames?tab=packages).
+
+---
+
 ## Open Source
 
 Contributions to Python, Rust, and Web3 libraries. Two fixes have shipped so far; the rest are open.
