@@ -24,7 +24,7 @@ Currently building **Meridian**, a memory-mapped columnar store for time-series 
 
 **Trading and Market Infrastructure**
 
-- **[TickDots](https://github.com/SachuJames/tickdots)** - Deterministic nanosecond-precision market microstructure simulator and matching engine (C++20), fully reproducible runs.
+- **[TickDots](https://github.com/SachuJames/TickDots)** - Deterministic nanosecond-precision market microstructure simulator and matching engine (C++20), fully reproducible runs.
 - **[limit-order-book](https://github.com/SachuJames/limit-order-book)** - Price-time priority matching engine in Rust: dense price levels, pooled orders, zero-allocation hot path.
 - **[chainbook](https://github.com/SachuJames/chainbook)** - A limit order book that lives entirely on-chain (Solidity, Foundry): escrowed funds, price-time priority, partial fills.
 - **[itch-feed](https://github.com/SachuJames/itch-feed)** - ITCH 5.0 market data feed handler in Rust: seeded UDP simulator, lock-free SPSC ring buffer, gap detection with retransmit requests.
